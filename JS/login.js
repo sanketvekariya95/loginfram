@@ -9,7 +9,7 @@ signin.addEventListener("submit", function (event) {
     if (loginname) {
         // Redirect to welcome.html with the username as a query parameter
         setTimeout(() => {
-            location.href = 'index.html?username=' + encodeURIComponent(userinfo.flname);
+            location.href = 'welcome.html?username=' + encodeURIComponent(userinfo.flname);
         }, 2000);
     }
 });

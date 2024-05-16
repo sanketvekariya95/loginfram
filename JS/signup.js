@@ -98,7 +98,7 @@ function signup() {
                 }, 2000)
 
                 setTimeout(() => {
-                    location.href = "form.html"
+                    location.href = "index.html"
                 }, 4000)
             }
         }
